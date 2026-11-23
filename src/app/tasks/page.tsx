@@ -1,1 +1,2 @@
-export default function TasksPage() { return <h1>Your tasks</h1>; }
+import { TaskList } from "@/components/TaskList";
+export default function TasksPage() { return <TaskList />; }
